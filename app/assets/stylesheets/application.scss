@@ -1,0 +1,140 @@
+@import "bootstrap";
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+
+body  {
+  height: 100vh;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.features-icons img {
+  width: 40px;
+  height: auto;
+}
+.blue-background  {
+  background-color: #2196F3;
+}
+
+a {
+  text-decoration: none;
+}
+a.button:visited
+{
+ color:inherit;
+}
+
+.white  {
+  color: white;
+}
+
+
+//FOOTER STYLING HERE
+.footer {
+   text-align: center;
+   width: 100%;
+}
+
+ .f1 {
+   background: white;
+   padding: 0;
+   margin: 0;
+ }
+
+ .f2 {
+   background: white;
+ }
+
+ .f3 {
+   background: white;
+ }
+
+ .f1,
+ .f2,
+ .f3 {
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+   display: inline-block;
+   text-align: right;
+   font-size: 12px;
+   padding: 0 8%;
+   min-width: 300px;
+   width: 33%;
+ }
+
+.f1 {
+    text-align: left;
+  }
+
+  #ratings  {
+    width: 100vw;
+    background-color: #2196F3;
+    padding-left: 14vw;
+    padding-right: 14vw;
+    padding-bottom: 10vh;
+    color: white;
+  }
+
+  .devices-image  {
+    width: 100%;
+    // height: 400px;
+  }
+
+  .icons  {
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    right: 0px;
+  }
+
+  .center-text {
+    text-align: center!important;
+  }
+
+  .Quickbooks-section {
+    background-color: #2196F3
+  }
+
+
+  .font-blue  {
+    color: #1976D3;
+  }
+  .col-centered{
+    float: none;
+    margin: 0 auto;
+}
+.nav-logo {
+  margin-left: 10vw;
+}
+.white-button {
+    background: #FFFFFF !important;
+    color: #2196F3 !important;
+  }
+.margin-20  {
+  margin-top: 20vh;
+}
+.margin-10  {
+  margin-top: 10vh;
+}
+.margin-5  {
+  margin-top: 5vh;
+}
+
+.text-center  {
+  text-align: center;
+}
+
+.grey-background  {
+  background-color: #F0F0F0;
+}
+
+.navy-background  {
+  background-color: #1976D3;
+}
+.feature-icon img {
+  width: 50px;
+  height: 50px;
+}

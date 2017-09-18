@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Housecall pro</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all' %>
+    <%= javascript_include_tag 'application' %>
+
+  </head>
+
+  <body class="">
+    <!-- <div class="top-nav-bar">
+      <div class="row ml-0 mr-0">
+        <a href="#pro">
+          <img class="nav-logo" src="assets/nav-logo.png" alt="">
+        </a>
+        <a href="/features" class="button flat-button-blue-secondary top-bar-button">Features</a>
+        <a href="#features">FEATURES</a>
+      </div> -->
+      <!-- <nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a class="navbar-brand" href="#">
+              <img alt="Brand" src="assets/nav-logo.png">
+            </a>
+          </div>
+          <ul class="nav nav-pills">
+            <li role="presentation" class="active"><a href="#">Home</a></li>
+            <li role="presentation"><a href="#">Profile</a></li>
+            <li role="presentation"><a href="#">Messages</a></li>
+        </ul>
+        </div>
+      </nav> -->
+    </div>
+    <%= yield %>
+    <div class="footer row">
+        <div class="f1">
+          <div class="row">
+            <a href="#press">Press</a> | <a href="#academy">Academy</a> | <a href="#blog">Blog</a> | <a href="#support">Support</a>
+          </div>
+          <div class="row">
+            <a href="#About">About</a> | <a href="#Careers">We are hiring</a>
+          </div>
+        </div>
+        <div class="f2">
+          <div class="row">
+            <img src="assets/footer-logo.png" alt=""/>
+          </div>
+          <div class="row">
+            SOCIAL ICONS HERE
+          </div>
+        </div>
+        <div class="f3">
+          <div class="row">
+          <a href="#terms_pro">Pro Terms</a> | <a href="#Terms">Consumer Terms</a>
+        </div>
+        <div class="row">
+          <a href="#Privacy">Privacy</a> | © Codefied Inc.
+        </div>
+        </div>
+      </div>
+  </body>
+</html>
