@@ -3,35 +3,35 @@
   <head>
     <title>Housecall pro</title>
     <%= csrf_meta_tags %>
-
     <%= stylesheet_link_tag    'application', media: 'all' %>
     <%= javascript_include_tag 'application' %>
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/jquery.typeit/4.4.0/typeit.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   </head>
 
   <body class="">
-    <!-- <div class="top-nav-bar">
+    <div id="#help-widget">
+
+    </div>
+    <div class="navigation-scroll" style="background: #1976D2; position: fixed; top: 0; width: 100vw; z-index: 100; height: 60px;">
       <div class="row ml-0 mr-0">
-        <a href="#pro">
-          <img class="nav-logo" src="assets/nav-logo.png" alt="">
-        </a>
-        <a href="/features" class="button flat-button-blue-secondary top-bar-button">Features</a>
-        <a href="#features">FEATURES</a>
-      </div> -->
-      <!-- <nav class="navbar navbar-default">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img alt="Brand" src="assets/nav-logo.png">
-            </a>
-          </div>
-          <ul class="nav nav-pills">
-            <li role="presentation" class="active"><a href="#">Home</a></li>
-            <li role="presentation"><a href="#">Profile</a></li>
-            <li role="presentation"><a href="#">Messages</a></li>
-        </ul>
+        <div class="col col-md-8">
+          <a href="/"><img class="img-fluid" src="assets/Housecall-logo-white.png" alt="" style="max-width: 220px;a:hover {text-decoration: none!important;}
+          a {text-decoration: none!important;}"></a>
+          <a class="button flat-button-white" href="/features" style="a:hover {text-decoration: none!important;}
+          a {text-decoration: none!important;}">FEATURES</a>
+          <a class="button flat-button-white" href="/success_stories" style="a:hover {text-decoration: none!important;}
+          a {text-decoration: none!important;}">SUCCESS STORIES</a>
+          <a class="button flat-button-white" href="/pricing" style="a:hover {text-decoration: none!important;}
+          a {text-decoration: none!important;}">PRICING</a>
         </div>
-      </nav> -->
+        <div class="col col-md-4 align-right">
+          <a class="button flat-button-white top-bar-button-floated-on-scroll " href="#">LOG IN</a>
+          <a href="#" class="button green-button top-bar-button-floated-on-scroll" style="">GET STARTED</a>
+        </div>
+      </div>
     </div>
     <%= yield %>
     <div class="footer row">
